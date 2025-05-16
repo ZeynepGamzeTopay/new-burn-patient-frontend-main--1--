@@ -1,0 +1,192 @@
+.doctor-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  position: relative; /* For positioning the logout button */
+}
+
+.doctor-dashboard h1 {
+  text-align: center; /* Center the title horizontally */
+  margin-bottom: 20px; /* Add some space below the title */
+  font-size: 34px; /* Adjust font size if needed */
+  width: 100%;
+}
+
+.tab-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center; /* Center the buttons horizontally */
+  margin-bottom: 20px;
+}
+
+.tab-container button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff; /* Blue color */
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+  text-align: center; /* Center the text */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.tab-container button.active {
+  background-color: #0056b3; /* Darker blue for active tab */
+}
+
+.tab-container button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.tab-content {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto; /* Center horizontally */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+button {
+  background-color: #007bff; /* Blue color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Logout button at top right corner */
+.logout-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #f44336;
+  color: white;
+  width: 80px;
+  height: 50px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.logout-button:hover {
+  background-color: #e53935; /* Red tone on hover */
+}
+
+/* Form and input styling */
+form {
+  width: 100%;
+  max-width: 500px; /* Narrower form */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+form input,
+form button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+form button {
+  background-color: #007bff; /* Blue color */
+  color: white;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+form input:focus,
+form button:focus {
+  outline: none;
+  border-color: #0056b3;
+}
+
+/* User info box styling */
+.user-info-box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #f8f9fa;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column; /* İçerikleri alt alta sıralar */
+  align-items: center; /* Ortaya hizalar */
+  text-align: center;
+}
+
+.user-info-box p {
+  margin: 5px 0;
+  color: #333;
+}
+
+
+/* Tab button styles */
+.tab-container button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff; /* Blue color */
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.tab-container button.active {
+  background-color: #0056b3;
+}
+
+.tab-container button:hover {
+  background-color: #0056b3;
+}
+
+.tab-content {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+}
+.dashboard-header {
+  display: flex;
+  justify-content: space-between; /* Ögeleri sağa ve sola yaslar, aradaki boşluğu eşitler */
+  align-items: center;
+  padding: 10px 20px; /* İç boşluk ekler */
+  background-color: #f0f0f0; /* Arka plan rengi (isteğe bağlı) */
+}
+
+.dashboard-header h1 {
+  text-align: center; /* Başlığı kendi içinde ortalar */
+  flex-grow: 1; /* Ortadaki başlığın boşluğu doldurmasını sağlar */
+  margin: 0;
+}
+
+.user-info-box, .logout-button {
+  margin: 0; /* kutuların kenarlara yapışmasını engeller */
+}

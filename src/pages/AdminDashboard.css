@@ -1,0 +1,137 @@
+.tab-container {
+  display: flex;
+  justify-content: flex-start; /* Solda hizala */
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.tab-container button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.tab-container button.active {
+  background-color: #0056b3;
+}
+
+.tab-container button:hover {
+  background-color: #0056b3;
+}
+
+.tab-content {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.tab-content h2 {
+  margin-bottom: 20px;
+}
+
+.patients-button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.patients-button:hover {
+  background-color: #0056b3;
+}
+
+/* Çıkış Yap butonunun sağ üst köşeye yerleştirilmesi */
+.logout-button {
+position: absolute;
+top: 30px;
+right: 10px;
+background-color: #f44336;
+color: white;
+/* Butonun boyutunu ayarlıyoruz */
+width: 80px;
+height: 50px;
+/* İçerik ile kenarlık arasındaki boşluk */
+padding: 5px;
+border: none;
+cursor: pointer;
+font-size: 14px;
+border-radius: 5px;
+}
+
+
+.back-button {
+position: absolute;
+top: 50%; /* Ortalamak için */
+left: 20px;
+transform: translateY(-50%); /* Yatay ve dikey merkezleme */
+background-color: #007bff;
+color: white;
+width: auto; /* Dinamik genişlik */
+padding: 10px 20px; /* Buton boyutunu ayarladık */
+border: none;
+cursor: pointer;
+font-size: 14px;
+border-radius: 5px;
+}
+
+.back-button:hover {
+background-color: #0056b3;
+}
+
+
+.dashboard-header {
+  position: relative;
+  padding: 20px 240px; /* Header yüksekliğini artırmak için padding arttırıldı */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f0f0; /* Arka plan rengi eklendi */
+  border-bottom: 1px solid #ddd; /* Alt çizgi ekledik */
+  height: 100px; /* Header yüksekliği ayarlandı */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Hafif bir gölge efekti */
+}
+
+.admin-info {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: black; /* Yazı rengini siyah yap */
+  font-weight: bold; /* Opsiyonel: Yazıyı kalın yapabilirsiniz */
+}
+
+
+.admin-info p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.header-title-container {
+  position: relative; /* Position relative ile ortalıyoruz */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-title-container h1 {
+  font-size: 28px; /* Font boyutunu büyüttük */
+  color: #333;
+  margin: 0;
+}

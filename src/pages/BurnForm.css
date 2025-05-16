@@ -1,0 +1,24 @@
+.photo-preview img {
+    max-width: 300px; /* Önizlemenin genişliğini küçült */
+    max-height: 300px; /* Önizlemenin yüksekliğini küçült */
+    object-fit: cover; /* Fotoğrafın oranını koruyarak kırpılmasını sağla */
+  }
+  
+  .message {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  .message.success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  .message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  .burn-depth {
+    margin-top: 15px;
+    font-size: 1.2em;
+  }
+  

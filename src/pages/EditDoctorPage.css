@@ -1,0 +1,60 @@
+.edit-doctor-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.edit-doctor-page {
+  width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+}
+
+.edit-doctor-page h1 {
+  margin-bottom: 20px;
+}
+
+.edit-doctor-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-doctor-page input,
+.edit-doctor-page select,
+.edit-doctor-page button {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.edit-doctor-page button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.edit-doctor-page button:hover {
+  background-color: #0056b3;
+}
+
+/* Geri Dön Butonu */
+.back-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 20%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,65 @@
+/* Register.css */
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Sayfanın tamamını kaplar */
+  background-color: #f7f9fc; /* Hafif açık bir arka plan */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1e2a47; /* Koyu mavi */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Mavi */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Daha koyu mavi */
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #1e2a47;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.back-button svg {
+  margin-right: 5px;
+}

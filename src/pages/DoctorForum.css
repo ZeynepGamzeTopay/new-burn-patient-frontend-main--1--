@@ -1,0 +1,212 @@
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.feed {
+    width: 100%;
+}
+
+.postCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    text-align: left;
+    position: relative; /* For positioning the doctor's name */
+}
+
+.postHeader {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.commentsSection {
+    margin-top: 8px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.comment {
+    background-color: #e9ecef;
+    padding: 5px; /* Reduced padding */
+    border-radius: 3px; /* Reduced border-radius */
+    font-size: 0.9em; /* Optional: Reduced font size */
+}
+
+.commentForm {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.commentInput {
+    flex-grow: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.commentButton {
+    padding: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.commentActions {
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+}
+
+.editButton {
+    padding: 5px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+}
+
+.saveButton {
+    padding: 5px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deleteButton {
+    padding: 5px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+     background-color: #dc3545; /* Kırmızı renk */
+}
+
+.voiceRecordingsSection {
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.voiceRecording {
+    background-color: #f0f0f0;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recordContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.recordButton {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recordInstruction {
+    font-size: 0.8em;
+    margin-left: 5px;
+    color: #555;
+}
+
+.commentContainer {
+    background-color: #e9ecef;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.commentText {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.doctorName {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.timestamp {
+    font-size: 0.7em;
+    color: #777;
+    margin-left: 1px;
+    align-self: flex-end;
+}
+
+.errorMessageBox {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 9px;
+    margin-bottom: 9px;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+}
+.textContainer {
+    padding: "5px";
+    border-radius: "5px";
+    margin-bottom: "5px";
+    display: "flex";
+    flex-direction: 'column';
+    align-items: "flex-start";
+    justify-content: "space-between";
+    width: '100%';
+};
